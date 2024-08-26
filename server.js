@@ -18,37 +18,34 @@ await connection();
 
 const app = express();
 
-const __filename = fileURLToPath(import.meta.url); // absolute path to the current file
-const __dirname = path.dirname(__filename); // directory name of the current file
+const __filename = fileURLToPath(import.meta.url); // Absolute path to the current file
+const __dirname = path.dirname(__filename); // Directory name of the current file
 
 app.use(
-
   cors({
     credentials: true,
     origin: ["http://localhost:5173", "http://localhost:5174"],
   })
-
 );
+
 app.use(cookieParser());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "client/dist"))); //? specify the path for our frontend (current directory + path we want to get in) // deploy-starter/frontend/dist
 
+// Serve static files from the React frontend app
+app.use(express.static(path.join(__dirname, "client", "dist")));
+
+// API Routes
 app.use("/api/auth", authRouter);
 app.use("/api/product", productRouter);
 app.use("/api/cart", cartRouter);
 app.use("/api/order", orderRouter);
-// app.use("/images", express.static("uploads"));
 app.use("/api/wishlist", wishListRouter);
 app.use("/api/user", userRouter);
 
-// app.use("*", (req, res) => {
-//   res.status(404).json({ msg: "not found" });
-// });
-
+// Handle any other routes and serve the frontend
 app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "client", "dist"));
+  res.sendFile(path.join(__dirname, "client", "dist", "index.html"));
 });
-
 
 const port = process.env.PORT || 5100;
 

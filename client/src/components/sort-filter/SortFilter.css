@@ -1,0 +1,160 @@
+.shopContainer {
+  width: 100%;
+  max-width: 120rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.sort-filter {
+  width: 100vw;
+  height: 6rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+  background-color: white;
+  position: sticky;
+  top: 12rem;
+  z-index: 2;
+}
+
+.sort-filter .sortButton {
+  position: relative;
+  padding: 0 5rem 0 3rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-right: 1px solid rgba(71, 71, 71, 1);
+  border-left: 1px solid rgba(71, 71, 71, 1);
+  cursor: pointer;
+}
+
+.sort-filter .sortButton .sortIcon {
+  position: absolute;
+  right: 2rem;
+}
+
+.sort-filter .sort {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  position: absolute;
+  top: 5.9rem;
+  right: 11.3rem;
+  border-radius: 1px;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(71, 71, 71, 1);
+}
+
+.sort-filter .sort ul {
+  height: 100%;
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sort-filter .sort ul li {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.sort-filter .sort ul li:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.sort-filter .filter {
+  padding: 0 4rem 0 2rem;
+  border-right: 1px solid rgba(71, 71, 71, 1);
+  border-left: 1px solid rgba(71, 71, 71, 1);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.filter-panel {
+  width: 100vw;
+  height: 12rem;
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: -2px 5px 5px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  position: absolute;
+  top: 5.9rem;
+  left: 0;
+}
+
+@media (max-width: 1024px) {
+  .filter-panel {
+    z-index: 1;
+  }
+}
+
+.filter-panel .filter-header {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 4rem;
+  padding-top: 1rem;
+}
+
+.filter-panel .filter-header .close-icon {
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.filter-panel .filter-body {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  gap: 2rem;
+}
+
+.filter-panel .filter-body .filter-item {
+  padding-bottom: 2px;
+  font-size: 1.7rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #000000;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: box-shadow 0.5s ease-in-out, color .5s ease-in-out;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0);
+}
+
+.filter-panel .filter-body .filter-item:hover {
+  box-shadow: inset 0 -1px 0 black;
+  font-weight: 500;
+}
+
+.filter-panel .filter-body .filter-item.active {
+  /* color: #56555A; */
+  box-shadow: inset 0 -1px 0 #56555A;
+  font-weight: bold;
+}

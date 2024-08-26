@@ -1,0 +1,186 @@
+.wishlist-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 4rem;
+  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-left: 0;
+}
+
+.wishListHeader {
+  width: 100%;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+/* .wishListHeader::before {
+  content: "";
+  width: 10rem;
+  height: .1rem;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  z-index: 2;
+} */
+
+.wishListHeader h2 {
+  font-family: "Merriweather", serif;
+  font-size: 3.3rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: #6A6A6A;
+}
+
+.wishlist-container .wishListBox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+
+.wishlist-container .wishListBox .productsBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  background-color: transparent;
+  /* border: 1px solid #6A6A6A; */
+  border-radius: 3px;
+  /* padding: 1rem; */
+}
+
+.delete{
+  align-self: flex-end;
+  width: 15px;
+  height: 15px;
+  }
+
+ .delete p{
+  font-size: 20px;
+ }
+
+ .delete :hover{
+  cursor: pointer;
+ }
+
+
+.wishlist-container .wishListBox .productsBox .imageBox {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.wishlist-container .wishListBox .productsBox .imageBox::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+}
+
+.wishlist-container .wishListBox .productsBox .imageBox:hover::before {
+  opacity: 1;
+}
+
+.wishlist-container .wishListBox .productsBox .imageBox:hover .addToCart {
+  opacity: 1;
+}
+
+.wishlist-container .wishListBox .productsBox .imageBox img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+.wishlist-container .wishListBox .productsBox .imageBox .addToCart {
+  width: 40%;
+  height: 3rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+  color: #6A6A6A;
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+  opacity: 0;
+}
+
+.wishlist-container .wishListBox .productsBox .imageBox .addToCart:hover {
+  background-color: #b83050;
+  color: white;
+}
+
+.wishlist-container .wishListBox .productsBox .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: .5rem;
+}
+
+.wishlist-container .wishListBox .productsBox .info p:first-child {
+  font-size: 2.2rem;
+  font-family: "Merriweather", serif;
+  letter-spacing: 1px;
+  color: #383838;
+}
+
+.wishlist-container .wishListBox .productsBox .info p:nth-child(2n) {
+  font-size: 2rem;
+  color: #6A6A6A;
+}
+
+.wishlist-container .wishListBox .productsBox .deleteButton button {
+  width: 10rem;
+  height: 2.5rem;
+  color: #850d29;
+  border: 1px solid #850d29;
+  border-radius: 3px;
+  background-color: transparent;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: all .3s ease-in-out;
+}
+
+.wishlist-container .wishListBox .productsBox .deleteButton button:hover {
+  background-color: #850d29;
+  border: #850d29;
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .wishlist-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 4rem;
+    padding-bottom: 5rem;
+    padding-top: 2rem;
+  }
+  
+  .wishlist-container .wishListBox {
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wishlist-container .wishListBox {
+    justify-content: flex-start;
+    align-items: center;
+  }
+}

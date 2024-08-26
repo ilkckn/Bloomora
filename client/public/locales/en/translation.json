@@ -1,0 +1,301 @@
+{
+  "home": "Home",
+  "landingSlider": {
+    "title1_1": "Shop online or visit our store",
+    "title2_1": "10 Station St Wentworth Falls",
+    "title1_2": "Bloomora is there to support you in every special moment.",
+    "title2_2": "Beautiful flowers for every occasion",
+    "title1_3": "Bloomora is there to support you in every special moment.",
+    "title2_3": "Beautiful flowers for every occasion"
+  },
+  "mostPopular": {
+    "header": "Most Popular Products",
+    "seeAll": "See All Products"
+  },
+  "support": {
+    "header1": "FAST PRODUCT DELİVERY, CLICK AND COLLECT",
+    "header2": "FRESH FLOWERS & LOCAL GROWERS",
+    "header3": "PAY FOR FLOWERS WITH AFTERPAY",
+    "header4": "24/7 CUSTOMER SUPPORT"
+  },
+  "shop": {
+    "header1": "Shop",
+    "header2": "Shop Flower & Gifts",
+    "addToCart": "Add to Cart",
+    "prevText": "back",
+    "nextText": "next",
+    "page": "Page"
+  },
+  "productDetails": {
+    "addToCart": "Add to Cart",
+    "vat": "including VAT plus",
+    "deliveryFee": "Delivery Fee",
+    "total": "Total"
+  },
+  "sort": {
+    "header": "sort",
+    "category1": "select your option",
+    "category2": "alphabetically, a-z",
+    "category3": "alphabetically, z-a",
+    "category4": "price, high to low",
+    "category5": "price, low to high"
+  },
+  "filter": {
+    "header": "filter",
+    "all": "All",
+    "category1": "select your option",
+    "category2": "decor",
+    "category3": "Eustoma",
+    "category4": "Flowers on Ocassion",
+    "category5": "Gifts",
+    "category6": "House Plants",
+    "category7": "Peonies",
+    "category8": "Roses"
+  },
+  "ourRoots": {
+    "header": "Our Roots",
+    "whoWeAre": "Who We Are",
+    "description": "Welcome to Bloomora, your premier destination for exquisite floral creations. At Bloomora, we believe that flowers are more than just decorations—they're expressions of love, joy, and beauty that bring moments to life.",
+    "ourStory": "Our Story",
+    "story": "Bloomora was born out of a passion for floriculture and a desire to spread happiness through nature’s most beautiful gifts. Our founders, lifelong enthusiasts of floral design, envisioned a space where creativity blooms and every bouquet tells a story. Since our inception, we have dedicated ourselves to crafting breathtaking floral arrangements that leave a lasting impression.",
+    "whatWeOffer": "What We Offer",
+    "offer1": "Whether it's a birthday, anniversary, wedding, or just because, we tailor each bouquet to suit your unique needs and tastes.",
+    "offerHeader1": "Custom Floral Arrangements:",
+    "offer2": "Transform your special events with our bespoke floral designs, from intimate gatherings to grand celebrations.",
+    "offerHeader2": "Event Decor:",
+    "offer3": "Our collection evolves with the seasons, offering fresh and vibrant flowers that reflect the natural beauty of each time of year.",
+    "offerHeader3": "Seasonal Selections:",
+    "offer4": "Beyond bouquets, we offer a variety of potted plants and garden gifts to bring greenery into your home or office.",
+    "offerHeader4": "Plant and Garden Gifts:",
+    "ourPhilosophy": "Our Philosophy",
+    "philosophy": "At Bloomora, we are committed to sustainability and supporting local growers. We source our flowers from eco-friendly farms and handpick each stem to ensure the highest quality. Our designs are a fusion of traditional elegance and modern flair, crafted with meticulous attention to detail.",
+    "meetTheTeam": "Meet the Team",
+    "ourTeam": "Our talented team of florists combines artistry with a deep understanding of floral botany. Each member brings a unique touch to Bloomora, united by a shared love for creating stunning floral experiences. We take pride in our personalized service and strive to make every customer feel special.",
+    "joinOurTeam": "Join Our Team",
+    "join": "We invite you to explore the beauty and joy that flowers can bring. Visit our shop, browse our website, or connect with us on social media to stay updated on our latest creations and floral tips. Let Bloomora be a part of your cherished moments, making them even more memorable with our beautiful blooms.Thank you for choosing Bloomora. We look forward to blossoming with you!",
+    "aphorism": "Bloomora – Where Every Bloom Tells a Story",
+    "bio": "Learn more about SWGM here: ",
+    "publications": " Melissa and her work in the sustainable flower movement has been published in national and international publications, printed in The 50 Mile Bouquet by Debra Prinzing and interviewed on NPR.",
+    "learnMore": "To Learn more about the sustainable floral movement please visit"
+  },
+  "weddingSlider": {
+    "subtitle": "Hand-crafted in the Blue Mountains",
+    "title": "Wedding Flowers & Bouquets",
+    "buttonText": "Wedding Quotes"
+  },
+  "weddingEvents": {
+    "header": "Weddings & Events",
+    "flowersForYouTitle": "Flowers that Work for You",
+    "flowersForYouDescription1": "Using our",
+    "experience": "19 YEARS OF EXPERIENCE",
+    "flowersForYouDescription2": "in service and hospitality industries, venue coordination, wedding planning, and floral design, we create innovative, whimsical, and elegant designs to make your vision come to life.",
+    "whatWeOfferTitle": "What We Offer",
+    "cocktailArrangements": "Cocktail Arrangements",
+    "centerpieces": "Centerpieces",
+    "statementPieces": "Statement Pieces",
+    "floralInstallations": "Floral Installations",
+    "plantInstallations": "Plant Installations",
+    "corporateEvents": "Corporate Events",
+    "dinnerParties": "Dinner Parties",
+    "showers": "Showers",
+    "rehearsals": "Rehearsals",
+    "staging": "Staging",
+    "inquireAboutEvent": "Inquire About Event",
+    "pastEventsTitle": "Past Events"
+  },
+  "weddingProcess": {
+    "header": "Wedding Process",
+    "step": "Step",
+    "step1Description": "Complete the form, think about how you want your day to unfold, and use as many visual terms as you can think of. We’ll look over your intake form and be in touch to schedule a consultation. For a full service 100+ guest count wedding, our minimum is $4800 in order to ensure a unique, lovely, and elegant event. A-la-carte services are offered for clients who are having a smaller, more intimate affair and who do not need as many components as our full-service clients; pricing varies.",
+    "weddingInquiry": "Wedding Inquiry",
+    "aLaCarteInquiry": "A la Carte Inquiry",
+    "step2Description": "Next we’ll meet at our studio and talk all about your vision: colors, decor, styles, blooms! We’ll get to know each other and look at inspiration. See some of our recent work in our gallery below to get inspired for your big day.",
+    "weddingGallery": "Wedding Gallery",
+    "step3Description": "From there we'll begin the contract process by sending you a curated proposal complete with itemized line items and mood board for your review.",
+    "step4Description": "After a few edits, you’ll sign our contract and pay a retainer electronically. Over the following months, we’ll finalize any details and tie up loose ends by emails and meetings. Day-of, we will deliver, install, and clean-up so you can focus on time spent with your guests: eating, drinking, laughing, and dancing!"
+  },
+  "wedding_gallery": "Wedding Gallery",
+  "events": "Events",
+  "weddingInquiry": {
+    "header1": "Wedding Inquiry",
+    "header2": ""
+  },
+  "contact": {
+    "header": "Contact",
+    "shopHours": {
+      "title": "Shop Hours",
+      "mondayFriday": "Monday-Friday | 9-5pm",
+      "saturday": "Saturday | 9-4pm",
+      "sunday": "Sunday | Closed"
+    },
+    "daysOutOfService": {
+      "title": "Days Out of Service",
+      "dates": "Shop will be closed from the 4th to the 7th of June",
+      "message": "Enjoy the festivities"
+    },
+    "contactOrder": {
+      "title": "Contact & Order",
+      "emailLabel": "Email",
+      "email": "hello@bloomora.com",
+      "addressLabel": "Address",
+      "address": "Schwarz Straße 123 76543 Berlin",
+      "phoneLabel": "Phone",
+      "phone": "0123 4567890"
+    }
+  },
+  "contactForm": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Select Subject",
+    "message": "Message",
+    "submit": "Submit",
+    "placeholder": {
+      "firstName": "Name",
+      "lastName": "Last Name",
+      "email": "abcd@example.com",
+      "phone": "+49 123 4567890"
+    },
+    "subjectOptions": {
+      "default": "Select your subject",
+      "bouquetOrder": "Bouquet Order",
+      "specialEventArrangements": "Special Event Arrangements",
+      "deliveryInquiry": "Delivery Inquiry",
+      "customFloralDesign": "Custom Floral Design",
+      "storeFeedback": "Store Feedback",
+      "otherInquiries": "Other Inquiries"
+    }
+  },
+  "search": {
+    "header": "I’m so excited to help you find it!",
+    "placeholder": "Search",
+    "emptyMessage": "There is no item!",
+    "noResults": "Product not found!",
+    "addToCart": "Add to Cart"
+  },
+  "hello_user": "Hello, {{name}}",
+  "profile": "Profile",
+  "logout": "Logout",
+  "sign_in": {
+    "header": "Sign In",
+    "email": "Email",
+    "password": "Password",
+    "noAccount": "If you don't have an account",
+    "register": "Register",
+    "noAccountLogin": "Login",
+    "close": "X"
+  },
+  "register": {
+    "header": "Register",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "password": "Password",
+    "confirmPass": "Confirm password",
+    "alreadyAcc": "Already have an account?",
+    "alreadyAccLogin": "Login",
+    "close": "X"
+  },
+  "userPanel": {
+    "edit": {
+      "header": "Edit",
+      "firstName": "First Name :",
+      "lastName": "Last Name :",
+      "invoiceAddress": "Invoice Address",
+      "street": "Street :",
+      "num": "Num :",
+      "zip": "ZIP :",
+      "city": "City :",
+      "country": "Country :",
+      "save": "Save"
+    },
+    "myOrders": {
+      "header": "Orders",
+      "orderedProducts": "Ordered Products :",
+      "productPrice": "Product Price :",
+      "productQuantity": "Product Quantity :",
+      "orderNumber": "Order Number :",
+      "orderStatus": "Order Status :",
+      "orderPlaced": "Order Placed :",
+      "deliveryAddress": "Delivery Address",
+      "street": "Street :",
+      "plz": "PLZ :",
+      "city": "City :",
+      "total": "Total :"
+    },
+    "myInvoice": "Invoice",
+    "wishList": "Wishlist",
+    "adminPanel": {
+      "header": "Admin Panel",
+      "selectImage": "Please select an image to upload",
+      "selectFile": "Select file",
+      "description": "Product Description",
+      "category": "Category",
+      "selectYourOption": "Select your option",
+      "subCategory": "Subcategory",
+      "artificial": "Artificial",
+      "christmas": "Christmas",
+      "forHome": "For Home",
+      "stValentineDay": "St. Valentine's Day",
+      "weddingAnniversary": "Wedding Anniversary",
+      "birthday": "Birthday",
+      "createProduct": "Create Product",
+      "nameOfProduct": "Name of Product",
+      "priceOfProduct": "Price of Product",
+      "description1": "Description"
+    },
+    "welcome": "Welcome"
+  },
+  "delete_user": "Delete user",
+  "wishlist": "Wishlist",
+  "cart": {
+    "header": "Cart",
+    "cartLength": "Your Cart Is Empty",
+    "quantity": "Quantity",
+    "price": "Price",
+    "subTotal": "Order Subtotal",
+    "shipping": "Shipping 'STANDARD'",
+    "free": "Free",
+    "vat": "Vat",
+    "included": "Included",
+    "totalToPay": "Total to Pay",
+    "checkout": "Go To Checkout",
+    "or": "or",
+    "paypal": "Paypal",
+    "freeShipping": "Free Shipping For Logged-In User",
+    "freeReturns": "Free Returns For 30 Days",
+    "secureCheckout": "Secure Checkout"
+  },
+  "add_to_cart": "Add to Cart",
+  "delete": "Delete",
+  "total_to_pay": "Total to Pay",
+  "go_to_checkout": "Go to Checkout",
+  "paypal": "Paypal",
+  "order_subtotal": "Order Subtotal",
+  "shipping": "Shipping",
+  "free": "Free",
+  "vat": "VAT",
+  "included": "Included",
+  "free_shipping_logged_in": "Free Shipping for Logged-In Users",
+  "free_returns": "Free Returns for 30 Days",
+  "secure_checkout": "Secure Checkout",
+  "footer": {
+    "headerRoots": "our roots",
+    "links1": "vision",
+    "links2": "careers",
+    "links3": "service terms",
+    "links4": "donate",
+    "headerAccounts": "bloomora",
+    "links11": "sign in",
+    "links12": "gallery",
+    "links13": "view cart",
+    "links14": "my wishlist",
+    "headerHelp": "help",
+    "links21": "help center",
+    "links22": "report problem",
+    "links23": "view cart",
+    "links24": "contact us",
+    "rightsReserved": "© 2024 Bloomora. All rights reserved."
+  }
+}
